@@ -183,7 +183,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "ᴏʜ ɢᴇɴᴏs? ʟᴇᴛs ɢᴇᴛ ᴛʜɪs ᴍᴏᴠɪɴɢ.", reply_to_message_id=reply
+                    "Oᴡɴᴇʀ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ɢʀᴏᴜᴘ.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -195,7 +195,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Bᴇ ᴄᴏᴏʟ! A ᴍᴇᴍʙᴇʀ ᴏғ ᴛʜᴇ Hᴇʀᴏᴇs Assᴏᴄɪᴀᴛɪᴏɴ Jᴜsᴛ Jᴏɪɴᴇᴅ.",
+                    "Bᴇ ᴄᴏᴏʟ! A ᴍᴇᴍʙᴇʀ ᴏғ ᴛʜᴇ ᴄᴏᴅᴇʀ ɴᴇᴛᴡᴏʀᴋ Jᴜsᴛ Jᴏɪɴᴇᴅ.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
