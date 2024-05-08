@@ -12,7 +12,7 @@ from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START
 PHOTO = [
     "https://graph.org/file/f6944928e0d95e1c377c4.jpg",
     "https://graph.org/file/f6944928e0d95e1c377c4.jpg",
-    "https://graph.org/file/f6944928e0d95e1c377c4.jpg
+    "https://graph.org/file/f6944928e0d95e1c377c4.jpg",
     "https://graph.org/file/f6944928e0d95e1c377c4.jpg",
     "https://graph.org/file/f6944928e0d95e1c377c4.jpg",
 ]
